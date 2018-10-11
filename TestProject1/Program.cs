@@ -15,6 +15,9 @@ namespace TestProject1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
+            Console.WriteLine("프로그램 시작합니다");
+
             Application.Run(new Form1());
         }
     }
